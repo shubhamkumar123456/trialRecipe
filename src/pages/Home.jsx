@@ -42,7 +42,7 @@ const handleSearch = (e)=>{
 
 const handleClick = (ans)=>{
   console.log(ans)
-  navigate('/recipe',{state:ans});
+  navigate('/recipe',{state:ans})
 }
 
   return (
